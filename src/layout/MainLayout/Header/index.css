@@ -1,0 +1,26 @@
+.turn-to-left {
+
+    animation: rotate-left 0.4s ease-in forwards;
+}
+
+.turn-to-right {
+    animation: rotate-right 0.4s ease-in forwards; 
+}
+
+@keyframes rotate-left {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotate-right {
+    0% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
